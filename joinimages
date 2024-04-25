@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo $1
+convert -append *.jpg ${1}.jpg

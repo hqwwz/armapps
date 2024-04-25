@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo $1
+tmp=${1}.tmp
+convert -resize 50%%x50%% $1 $tmp
+rm -f $1
+mv $tmp $1
